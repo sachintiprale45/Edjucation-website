@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <!--navigation-->
+    <nav>
+        <img src="logo.svg" alt="">
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fa-solid fa-xmark"></i>
+                <li><a href="#">home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="active" href="blog.html">Blog</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <img id="menu-btn" src="menu.png" alt="">
+        </div>
+    </nav>
+
+    <section id="blog-container">
+        <div class="blogs blogpost">
+            <div class="post">
+                <img src="b1.jpg" alt="">
+                <h3>Learn Web Development In The Easist Way</h3>
+                <p>Full Stack Development refers to the development of both front end(client side)
+                    and back end(server side) portions of web application.Full
+                    stack web developers have the ability to design complete web
+                    applications and websites.They work on the frontend, backend, database and debugging of web
+                    applications
+                    or websites</p>
+                <p>The world of full-stack development is large, and many new and evolving technologies continually push
+                    the limits
+                    of what a full-stack developer can create. Staying on top of cutting-edge technology and techniques
+                    in the full-stack
+                    development field is one of the many exciting aspects of working in this role.</p>
+                <p>Client Software (Front End)
+                    Client software, also known as a front end, is a type of software that interacts with users. It is
+                    responsible for
+                    the graphical user interface (GUI) that users see and interact with. It allows users to access and
+                    use the features and
+                    functions of the underlying software or system. Client software typically runs on a user's local
+                    machine instead of being hosted on a remote server.
+                    In many cases, the client software makes the user's experience with a particular system or
+                    application possible.</p>
+                <p>Server software, also known as the back-end software, is responsible for managing and coordinating
+                    the activities of the server.
+                    It is responsible for ensuring that the server is up and running and that all the different server
+                    components are functioning correctly.
+                    Server software also provides an interface for users to interact with the server and for
+                    administrators to manage the server.
+                    Some popular server software programs include Apache HTTP Server, Microsoft IIS, and Nginx. These
+                    programs handle server-side tasks
+                    like hosting web pages, taking user requests, and sending responses.
+                    To run a website or application, you will need to have a server running server software. This
+                    software allows users to interact with your
+                    site or application. Without server software, there would be no way for users to request data or
+                    information from your site.
+
+                    Server software is an integral part of any website or application. It is essential for anyone who
+                    wants to run a website or application to have a basic understanding of how it works.</p>
+                <p>Full stack development provides a faster and more efficient development experience to build web
+                    applications, as team members
+                    are equipped with the knowledge of various technologies and tools and can use their diverse
+                    knowledge for development as well as future research.
+                    The two most popular technology stacks—i.e., MEAN stack and MERN stack—use MongoDB as their core
+                    database, which has a flexible
+                    schema and provides scalability and high availability for any project size.</p>
+                <a href="#">Read Next?</a>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!--Footer-->
+    <footer>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Manage Websites</li>
+            <li>Marketing Services</li>
+        </div>
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <li>Jobs</li>
+            <li>Brand Assest</li>
+            <li>Inverstore Relations</li>
+            <li>Terms of Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Features</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Manage Websites</li>
+            <li>Marketing Services</li>
+        </div>
+        <div class="footer-col">
+            <h3>Resources</h3>
+            <li>Guides</li>
+            <li>Experts</li>
+            <li>Research</li>
+            <li>Marketing Services</li>
+
+        </div>
+        <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p>You can trust us. we only send promo offers </p>
+            <div class="subscribe">
+                <input type="text" placeholder="Your Email">
+                <a href="#" class="yellow">SUBSCRIBE</a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyrights 2021 All rights reserverd | This template is made by Sachin</p>
+            <div class="pro-linkes">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+        </div>
+    </footer>
+    <script>
+        $('#menu-btn').click(function () {
+            $('nav .navigation ul').addClass('active')
+        });
+        $('#menu-close').click(function () {
+            $('nav .navigation ul').removeClass('active')
+        });
+    </script>
+</body>
+
+</html>

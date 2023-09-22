@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <!--navigation-->
+    <nav>
+        <img src="logo.svg" alt="">
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fa-solid fa-xmark"></i>
+                <li><a href="#">home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="active" href="blog.html">Blog</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <img id="menu-btn" src="menu.png" alt="">
+        </div>
+    </nav>
+
+    <section id="blog-container">
+        <div class="blogs blogpost">
+            <div class="post">
+                <img src="b2.jpg" alt="">
+                <h3>Learn Data structure In The Easist Way</h3>
+                <p>The data structure name indicates itself that organizing the data in memory.
+                     There are many ways of organizing the data in the memory as we have already seen one of the
+                      data structures, i.e., array in C language. Array is a collection of memory elements in which 
+                      data is stored sequentially, i.e., one after another. In other words, we can say that array stores
+                       the elements in a continuous manner. This organization of data is done with the help of an array of
+                        data structures. There are also other ways to organize the data in memory.
+                     Let's see the different types of data structure</p>
+                <p>The data structure is not any programming language like C, C++, java, etc. It is a set of algorithms that we can use in
+                     any programming language to structure the data in the memory.
+                    To structure the data in memory, 'n' number of algorithms were proposed, and all these 
+                    algorithms are known as Abstract data types. 
+                    These abstract data types are the set of rules.</p>
+                <p>An algorithm is a process or a set of rules required to perform calculations or some other problem-solving 
+                    operations especially by a computer. The formal definition of an algorithm is that it contains the finite
+                     set of instructions which are being carried in a specific order to perform the specific task. It is not
+                      the complete program or code; it is just a solution (logic) of a problem, 
+                    which can be represented either as an informal description using a Flowchart or Pseudocode.</p>
+                 <p>Data Structures (DS) tutorial provides basic and advanced concepts of Data Structure. Our Data 
+                    Structure tutorial is designed for beginners and professionals.
+                    Data Structure is a way to store and organize data so that it can be used efficiently.
+                    Our Data Structure tutorial includes all topics of Data Structure such as Array, Pointer, Structure, 
+                    Linked List, Stack, Queue, Graph, Searching, Sorting, Programs, etc.</p>
+                <a href="#">Read Next?</a>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!--Footer-->
+    <footer>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Manage Websites</li>
+            <li>Marketing Services</li>
+        </div>
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <li>Jobs</li>
+            <li>Brand Assest</li>
+            <li>Inverstore Relations</li>
+            <li>Terms of Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Features</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Manage Websites</li>
+            <li>Marketing Services</li>
+        </div>
+        <div class="footer-col">
+            <h3>Resources</h3>
+            <li>Guides</li>
+            <li>Experts</li>
+            <li>Research</li>
+            <li>Marketing Services</li>
+
+        </div>
+        <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p>You can trust us. we only send promo offers </p>
+            <div class="subscribe">
+                <input type="text" placeholder="Your Email">
+                <a href="#" class="yellow">SUBSCRIBE</a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyrights 2021 All rights reserverd | This template is made by Sachin</p>
+            <div class="pro-linkes">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+        </div>
+    </footer>
+    <script>
+        $('#menu-btn').click(function () {
+            $('nav .navigation ul').addClass('active')
+        });
+        $('#menu-close').click(function () {
+            $('nav .navigation ul').removeClass('active')
+        });
+    </script>
+</body>
+
+</html>
